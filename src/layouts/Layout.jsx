@@ -1,3 +1,4 @@
+import { AiFillHeart } from 'react-icons/ai';
 import styles from '../layouts/Layout.module.css'
 
 
@@ -13,7 +14,7 @@ function Layout({children}) {
       </header>
         {children}
       <footer className={styles.footer}>
-        <p>Developed by azita with :Love </p>
+        <p>Developed by azita with <AiFillHeart color='red'/> </p>
       </footer>
     </div>
   );

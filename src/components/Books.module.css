@@ -15,3 +15,8 @@ display: flex;
     border-radius: 10px;
     margin-left: 20px;
 }
+
+.favorite h4{
+    color: #fff;
+    padding-bottom: 10px;
+}
